@@ -15,3 +15,31 @@
 .item-center{
     align-items: center;
 }
+
+.invert{
+    filter: invert(1);
+}
+
+.margin{
+    padding: 2.5px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 9px;
+}
+
+.m-1{
+    margin: 6px;
+}
+
+.p-1{
+    padding: 7px;
+}
