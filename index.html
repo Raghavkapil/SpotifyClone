@@ -21,7 +21,14 @@
             </div>
             <div class="Library rounded bg-grey p-1 m-1">
                 <div class="heading">
-                    <h1>Your Library</h1>
+                    <img class="invert" src="library.svg" alt="">
+                    <h1> 
+                        Your Library</h1>
+                </div>
+                <div class="songList">
+                    <ul>
+                        
+                    </ul>
                 </div>
                 <div class="footer">
                     <div><a href="https://www.spotify.com/in-en/legal/"> <span>Legal</span></a></div>
@@ -39,20 +46,56 @@
             </div>
 
         </div>
-        <div class="right border bg-grey rounded p-1">
+        <div class="right border bg-grey rounded">
             <div class="header">
                 <div class="Navigation invert">
                     <img src="left.svg" alt="">
                     <img src="right.svg" alt="" srcset="">
                 </div>
                 <div class="buttons">
-                    <button>LogIn</button>
-                    <button>SignUp</button>
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log In</button>
+                    
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <img src="playicon.svg" alt="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002a46ea55285180036c5e8f196" alt="" srcset="">
+                        <h2>Happy Hits</h2>
+                        <p>Feel-good pop hits to brighten your day.</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f00000002a46ea55285180036c5e8f196" alt="" srcset="">
+                        <h2>Happy Hits</h2>
+                        <p>Feel-good pop hits to brighten your day.</p>
+                    </div>
+                </div>
+                <div class="playbar invert">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+
+                    </div>
+                    <div class="songinfo">
+                        
+                    </div>
+                    <div class="songbutton">
+                        <img id="previous" src="previous.svg" alt="">
+                        <img id="play" src="play.svg" alt="" >
+                        <img id="next" src="next.svg" alt="" >
+                    </div>
+                    <div class="songtime"></div>
                 </div>
             </div>
         </div>
     </div>
-
+ <script src="script.js"></script>
 </body>
 
 </html>
